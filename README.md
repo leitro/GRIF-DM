@@ -1,6 +1,6 @@
 # GRIF-DM
 
-[![ECAI 2024](https://img.shields.io/badge/ECAI-2024-blue.svg)](https://ecai2024.org/)
+[![ECAI 2024](https://img.shields.io/badge/ECAI-2024-blue.svg)](https://www.ecai2024.eu/)
 [![arXiv](https://img.shields.io/badge/arXiv-2408.07259-B31B1B.svg)](https://arxiv.org/pdf/2408.07259)
 
 Official implementation of the ECAI 2024 paper:  
@@ -30,7 +30,7 @@ We utilize the **MyFonts** dataset to train our proposed diffusion model from sc
 
 For more details on the dataset and its preprocessing, please refer to the following paper:
 
-[Tianlang Chen, Zhaowen Wang, Ning Xu, Hailin Jin, and Jiebo Luo. "Large-scale Tag-based Font Retrieval with Generative Feature Learning"](https://arxiv.org/abs/1909.12698), *IEEE International Conference on Computer Vision (ICCV), 2019*.
+[Tianlang Chen, Zhaowen Wang, Ning Xu, Hailin Jin, and Jiebo Luo. "Large-scale Tag-based Font Retrieval with Generative Feature Learning"](https://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Large-Scale_Tag-Based_Font_Retrieval_With_Generative_Feature_Learning_ICCV_2019_paper.pdf), *IEEE International Conference on Computer Vision (ICCV), 2019*.
 
 
 ## Training and Evaluation
@@ -45,14 +45,14 @@ To start training the model:
 python train.py
 ```
 
-**Checkpoints**: Model weights are saved in the `weights/` folder every 10 epochs.
-**Monitoring**: Intermediate results are saved in the `outputs/` folder after each epoch for easy monitoring and visualization.
-**Configuration**: Adjust hyperparameters and configurations in train.py as needed.
+- **Checkpoints**: Model weights are saved in the `weights/` folder every 10 epochs.
+- **Monitoring**: Intermediate results are saved in the `outputs/` folder after each epoch for easy monitoring and visualization.
+- **Configuration**: Adjust hyperparameters and configurations in train.py as needed.
 
 
 ### Evaluation
 
-Evaluation is integrated within train.py. After training, the script can generate visualizations.
+Evaluation is integrated within `train.py`. After training, the script can generate visualizations.
 
 ## Results
 
